@@ -6,7 +6,7 @@ For example:
 
     crawler:start_crawling("http://learnyousomeerlang.com/content", 1, "./")
 
-Since this module is dependent on [Mochiweb](https://github.com/mochi/mochiweb) for parsing HTML, it's important to include `ebin/` when compile the module.  You can do:
+Since this module is dependent on [Mochiweb](https://github.com/mochi/mochiweb) for parsing HTML, it's important to include `ebin/` (which contains beam files of mochiweb) when compile the module.  You can do:
 
     erl -pa "ebin/"
 
